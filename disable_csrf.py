@@ -17,4 +17,4 @@ if DEBUG:
     # debug_toolbar's middleware wants to be first
     # MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware'] + MIDDLEWARE
 
-    MIDDLEWARE = ['djproject.settings.web_interface.DisableCSRF'] + MIDDLEWARE
+    MIDDLEWARE = ['djproject.settings.DisableCSRF'] + MIDDLEWARE
